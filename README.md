@@ -51,7 +51,7 @@ The server will start at **[http://localhost:8080](http://localhost:8080)**.
 | Method   | Endpoint             | Description                      |
 | -------- | -------------------- | -------------------------------- |
 | `POST`   | `/api/products`      | Add a New Product *(Admin Only)* |
-| `POST`   | `/api/products/bulk` | Add Products bulk *(Admin Only)* |
+| `POST`   | `/api/products/bulk` | Add Products in bulk *(Admin Only)* |
 | `GET`    | `/api/products`      | Get All Products                 |
 | `GET`    | `/api/products/{id}` | Get Product by ID                |
 | `PUT`    | `/api/products/{id}` | Update Product *(Admin Only)*    |
