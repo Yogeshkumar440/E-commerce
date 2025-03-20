@@ -1,0 +1,391 @@
+Category data for database table
+insert this using postman:
+=>
+[
+    {
+        "name": "Electronics"
+    },
+    {
+        "name": "Home Appliances"
+    },
+    {
+        "name": "Clothing"
+    },
+    {
+        "name": "Books"
+    },
+    {
+        "name": "Sports & Outdoors"
+    },
+    {
+        "name": "Health & Beauty"
+    },
+    {
+        "name": "Toys & Games"
+    },
+    {
+        "name": "Furniture"
+    },
+    {
+        "name": "Automotive"
+    },
+    {
+        "name": "Grocery"
+    }
+]
+
+
+Product data for database:=>
+[
+    {
+        "name": "Smartphone X",
+        "description": "Latest model with advanced features",
+        "price": 999.99,
+        "stock": 50,
+        "category": { "id": 1 }
+    },
+    {
+        "name": "Laptop Pro",
+        "description": "High-performance laptop for professionals",
+        "price": 1499.99,
+        "stock": 30,
+        "category": { "id": 1 }
+    },
+    {
+        "name": "Wireless Earbuds",
+        "description": "Noise-canceling, long battery life",
+        "price": 199.99,
+        "stock": 100,
+        "category": { "id": 1 }
+    },
+    {
+        "name": "4K Smart TV",
+        "description": "55-inch ultra HD with HDR support",
+        "price": 799.99,
+        "stock": 25,
+        "category": { "id": 1 }
+    },
+    {
+        "name": "Gaming Console",
+        "description": "Next-gen gaming experience",
+        "price": 499.99,
+        "stock": 40,
+        "category": { "id": 1 }
+    },
+    {
+        "name": "Air Conditioner",
+        "description": "1.5 Ton, Inverter, Energy Efficient",
+        "price": 599.99,
+        "stock": 20,
+        "category": { "id": 2 }
+    },
+    {
+        "name": "Vacuum Cleaner",
+        "description": "Automatic robotic vacuum cleaner",
+        "price": 199.99,
+        "stock": 35,
+        "category": { "id": 2 }
+    },
+    {
+        "name": "Microwave Oven",
+        "description": "Convection microwave with grill function",
+        "price": 299.99,
+        "stock": 15,
+        "category": { "id": 2 }
+    },
+    {
+        "name": "Washing Machine",
+        "description": "7kg Front Load Fully Automatic",
+        "price": 499.99,
+        "stock": 10,
+        "category": { "id": 2 }
+    },
+    {
+        "name": "Refrigerator",
+        "description": "Double Door, Frost Free, 300L",
+        "price": 699.99,
+        "stock": 18,
+        "category": { "id": 2 }
+    },
+    {
+        "name": "Men's T-Shirt",
+        "description": "100% Cotton, Regular Fit",
+        "price": 19.99,
+        "stock": 200,
+        "category": { "id": 3 }
+    },
+    {
+        "name": "Women's Jeans",
+        "description": "Slim Fit, Stretchable Denim",
+        "price": 39.99,
+        "stock": 150,
+        "category": { "id": 3 }
+    },
+    {
+        "name": "Winter Jacket",
+        "description": "Waterproof, Windproof",
+        "price": 89.99,
+        "stock": 50,
+        "category": { "id": 3 }
+    },
+    {
+        "name": "Sports Shoes",
+        "description": "Comfortable and lightweight",
+        "price": 49.99,
+        "stock": 100,
+        "category": { "id": 3 }
+    },
+    {
+        "name": "Formal Shirt",
+        "description": "Slim Fit, Office Wear",
+        "price": 29.99,
+        "stock": 120,
+        "category": { "id": 3 }
+    },
+    {
+        "name": "Science Fiction Novel",
+        "description": "Best-selling sci-fi adventure",
+        "price": 14.99,
+        "stock": 80,
+        "category": { "id": 4 }
+    },
+    {
+        "name": "Cookbook",
+        "description": "Healthy recipes for everyday cooking",
+        "price": 24.99,
+        "stock": 60,
+        "category": { "id": 4 }
+    },
+    {
+        "name": "Self-Help Guide",
+        "description": "Motivational and life-changing tips",
+        "price": 12.99,
+        "stock": 90,
+        "category": { "id": 4 }
+    },
+    {
+        "name": "History Book",
+        "description": "Detailed historical events and facts",
+        "price": 18.99,
+        "stock": 70,
+        "category": { "id": 4 }
+    },
+    {
+        "name": "Children's Storybook",
+        "description": "Illustrated fun stories for kids",
+        "price": 9.99,
+        "stock": 120,
+        "category": { "id": 4 }
+    },
+    {
+        "name": "Treadmill",
+        "description": "Foldable, digital display, multiple modes",
+        "price": 399.99,
+        "stock": 25,
+        "category": { "id": 5 }
+    },
+    {
+        "name": "Yoga Mat",
+        "description": "Non-slip, extra thick",
+        "price": 29.99,
+        "stock": 100,
+        "category": { "id": 5 }
+    },
+    {
+        "name": "Dumbbells Set",
+        "description": "Adjustable weights, rubber-coated",
+        "price": 79.99,
+        "stock": 40,
+        "category": { "id": 5 }
+    },
+    {
+        "name": "Football",
+        "description": "Official size, durable material",
+        "price": 19.99,
+        "stock": 150,
+        "category": { "id": 5 }
+    },
+    {
+        "name": "Cycling Helmet",
+        "description": "Lightweight, impact-resistant",
+        "price": 49.99,
+        "stock": 50,
+        "category": { "id": 5 }
+    }
+
+    {
+        "name": "Face Moisturizer",
+        "description": "Hydrating and lightweight",
+        "price": 14.99,
+        "stock": 80,
+        "category": { "id": 6 }
+    },
+    {
+        "name": "Vitamin C Serum",
+        "description": "Brightens skin and reduces wrinkles",
+        "price": 24.99,
+        "stock": 50,
+        "category": { "id": 6 }
+    },
+    {
+        "name": "Shampoo",
+        "description": "Anti-dandruff, sulfate-free",
+        "price": 9.99,
+        "stock": 100,
+        "category": { "id": 6 }
+    },
+    {
+        "name": "Electric Toothbrush",
+        "description": "Rechargeable with multiple modes",
+        "price": 29.99,
+        "stock": 40,
+        "category": { "id": 6 }
+    },
+    {
+        "name": "Lipstick Set",
+        "description": "Matte, long-lasting shades",
+        "price": 19.99,
+        "stock": 75,
+        "category": { "id": 6 }
+    },
+    {
+        "name": "Lego Building Set",
+        "description": "Creative play for kids",
+        "price": 49.99,
+        "stock": 60,
+        "category": { "id": 7 }
+    },
+    {
+        "name": "Remote Control Car",
+        "description": "High-speed RC car with rechargeable battery",
+        "price": 39.99,
+        "stock": 80,
+        "category": { "id": 7 }
+    },
+    {
+        "name": "Board Game",
+        "description": "Family-friendly fun",
+        "price": 29.99,
+        "stock": 90,
+        "category": { "id": 7 }
+    },
+    {
+        "name": "Dollhouse Set",
+        "description": "Wooden with furniture and accessories",
+        "price": 89.99,
+        "stock": 40,
+        "category": { "id": 7 }
+    },
+    {
+        "name": "Puzzle Pack",
+        "description": "Challenging puzzles for all ages",
+        "price": 19.99,
+        "stock": 110,
+        "category": { "id": 7 }
+    },
+    {
+        "name": "Office Chair",
+        "description": "Ergonomic with lumbar support",
+        "price": 149.99,
+        "stock": 20,
+        "category": { "id": 8 }
+    },
+    {
+        "name": "Wooden Coffee Table",
+        "description": "Modern design with storage",
+        "price": 199.99,
+        "stock": 15,
+        "category": { "id": 8 }
+    },
+    {
+        "name": "Queen Bed Frame",
+        "description": "Solid wood, durable and stylish",
+        "price": 299.99,
+        "stock": 10,
+        "category": { "id": 8 }
+    },
+    {
+        "name": "Bookshelf",
+        "description": "5-tier wooden shelf for storage",
+        "price": 99.99,
+        "stock": 25,
+        "category": { "id": 8 }
+    },
+    {
+        "name": "Dining Table Set",
+        "description": "6-seater wooden dining table",
+        "price": 499.99,
+        "stock": 8,
+        "category": { "id": 8 }
+    },
+    {
+        "name": "Car Vacuum Cleaner",
+        "description": "Portable and powerful",
+        "price": 34.99,
+        "stock": 60,
+        "category": { "id": 9 }
+    },
+    {
+        "name": "Dashboard Camera",
+        "description": "Full HD recording with night vision",
+        "price": 99.99,
+        "stock": 35,
+        "category": { "id": 9 }
+    },
+    {
+        "name": "Car Seat Cover Set",
+        "description": "Leather, easy to install",
+        "price": 79.99,
+        "stock": 50,
+        "category": { "id": 9 }
+    },
+    {
+        "name": "Tire Inflator",
+        "description": "Automatic digital air compressor",
+        "price": 49.99,
+        "stock": 40,
+        "category": { "id": 9 }
+    },
+    {
+        "name": "Car Phone Holder",
+        "description": "Adjustable, dashboard mount",
+        "price": 19.99,
+        "stock": 70,
+        "category": { "id": 9 }
+    },
+    {
+        "name": "Organic Brown Rice",
+        "description": "Healthy whole grain rice",
+        "price": 12.99,
+        "stock": 100,
+        "category": { "id": 10 }
+    },
+    {
+        "name": "Almond Butter",
+        "description": "Smooth and natural, no added sugar",
+        "price": 9.99,
+        "stock": 90,
+        "category": { "id": 10 }
+    },
+    {
+        "name": "Green Tea Bags",
+        "description": "Organic, antioxidant-rich",
+        "price": 5.99,
+        "stock": 120,
+        "category": { "id": 10 }
+    },
+    {
+        "name": "Protein Bars",
+        "description": "High-protein, low sugar",
+        "price": 24.99,
+        "stock": 80,
+        "category": { "id": 10 }
+    },
+    {
+        "name": "Olive Oil",
+        "description": "Extra virgin, cold-pressed",
+        "price": 19.99,
+        "stock": 70,
+        "category": { "id": 10 }
+    }
+]
